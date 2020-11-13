@@ -1,0 +1,19 @@
+[
+ {
+  "directory": "D:\\My_Projects\\Run_JianguoChuan",
+  "arguments": [
+   "clang++",
+   "--target=x86_64-pc-window-mingw",
+   "-Wall",
+   "-W",
+   "-Wfatal-errors",
+   "-I./include",
+   "-L./lib",
+   "main.cpp",
+   "-o",
+   "./bin/game.exe",
+   "-lncursesw"
+  ],
+  "file": "main.cpp"
+ }
+]
